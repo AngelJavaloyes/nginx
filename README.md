@@ -85,12 +85,3 @@ sudo nano /etc/hosts
 ## 6. Configuración en Cliente Externo
 sudo nano /etc/hosts
 10.0.2.15 www.web1.org www.web2.org
-
-## Notas Importantes:
-1. Asegúrate de reiniciar Nginx después de realizar cambios:
-sudo systemctl restart nginx
-
-2. Verifica la sintaxis de configuración:
-sudo nginx -t
-
-3. El sitio web2 solo será accesible desde la red interna (10.0.3.0/24)
